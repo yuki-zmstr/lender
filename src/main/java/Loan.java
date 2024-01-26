@@ -3,8 +3,7 @@ public class Loan {
     private int amount;
     private boolean isPaid;
     private double interestRate;
-
-    static private double maxLoanAmount;
+    static private double maxLoanAmount; // class level member. if need to access from Main, set to public.
 
     public static double getMaxLoanAmount() {
         return maxLoanAmount;
